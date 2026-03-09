@@ -115,7 +115,7 @@ export default function App() {
         onChange={e => setManifest(e.target.value)}
       />
       <div style={{ display: 'flex', gap: 12, marginBottom: 16 }}>
-        <button onClick={handleCheck} style={{ padding: '8px 24px', fontSize: 16 }}>Check STIG</button>
+        <button onClick={handleCheck} style={{ padding: '8px 24px', fontSize: 16 }}>Check STIG Compliance</button>
         <button onClick={handleLoadNoncompliant} style={{ padding: '8px 24px', fontSize: 16 }}>Load Noncompliant Sample</button>
         <button onClick={handleLoadCompliant} style={{ padding: '8px 24px', fontSize: 16 }}>Load Compliant Sample</button>
       </div>
