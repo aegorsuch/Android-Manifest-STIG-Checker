@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "private": true,
     "dependencies": {
-        "react": "^18.0.0",
-        "react-dom": "^18.0.0"
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
     },
     "scripts": {
         "start": "npx serve public",
@@ -12,6 +12,7 @@
     },
     "devDependencies": {
         "@babel/preset-env": "^7.29.0",
-        "@babel/preset-react": "^7.28.5"
+        "@babel/preset-react": "^7.28.5",
+        "vite": "^7.3.1"
     }
 }
