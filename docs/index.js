@@ -8,9 +8,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDomClient = require('react-dom/client');
 
-var _App = require('./App');
+var _AppJsx = require('./App.jsx');
 
-var _App2 = _interopRequireDefault(_App);
+var _AppJsx2 = _interopRequireDefault(_AppJsx);
 
 var root = (0, _reactDomClient.createRoot)(document.getElementById('root'));
-root.render(_react2['default'].createElement(_App2['default'], null));
+root.render(_react2['default'].createElement(_AppJsx2['default'], null));
