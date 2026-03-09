@@ -3,14 +3,17 @@
 Paste your AndroidManifest.xml and get informed of real DISA Android STIG issues.
 
 ## Usage
-1. Start the app with `npm run dev` (for development) or `npm run build` and `npm run preview` (for production preview).
-2. Paste your AndroidManifest.xml.
+1. Start the app with `npm start` to launch the local server (default port 3000).
+2. Paste your AndroidManifest.xml in the input box.
 3. Click "Check STIG" to see issues.
+4. Optionally, load sample manifests for quick testing.
 
 ## Features
 - Manifest input
-- Real DISA Android STIG checks (including permissions, debuggable, backup, cleartext traffic, exported components, and more)
+- Real DISA Android STIG checks (permissions, debuggable, backup, cleartext traffic, exported components, and more)
 - Issue reporting
+- Dark mode UI
+- Sample manifest loader
 
 ## Deployment
 
@@ -21,6 +24,22 @@ To deploy as a GitHub Pages site:
 4. Add a `.nojekyll` file to the `docs` folder (already included).
 
 Your app will be available at: https://aegorsuch.github.io/android-manifest-stig-checker/
+## Recommended VS Code Extensions
+
+- Vite (antfu.vite)
+- VSCode React Refactor (planbcoding.vscode-react-refactor)
+- Auto Import - ES6, TS, JSX, TSX (nucllear.vscode-extension-auto-import)
+- LintLens — ESLint rules made easier (ghmcadams.lintlens)
+- VSCode FE Helper (yutengjing.vscode-fe-helper)
+- Set Auto Formatting (codamasoftware.set-auto-formatting)
+
+## Verification
+
+After any code change, run:
+- `npm run build` (compile)
+- `npm start` (launch)
+Check app at http://localhost:3000
+Lint and format code with recommended extensions.
 
 ## To Do
 - Add more STIG checks
