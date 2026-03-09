@@ -144,6 +144,21 @@ export default function App() {
           </table>
         )}
       </div>
+
+      {/* Feedback Section */}
+      <div style={{ marginTop: 40, background: '#282828', padding: 24, borderRadius: 8 }}>
+        <h2>Feedback & Suggestions</h2>
+        <form action="https://github.com/aegorsuch/Android-Manifest-STIG-Checker/issues" target="_blank" style={{ marginBottom: 16 }}>
+          <label htmlFor="feedback" style={{ display: 'block', marginBottom: 8 }}>Suggest a new rule or report an issue:</label>
+          <textarea id="feedback" name="feedback" rows={4} style={{ width: '100%', fontFamily: 'monospace', fontSize: 16, marginBottom: 12 }} placeholder="Describe your suggestion or issue..." />
+          <button type="submit" style={{ padding: '8px 24px', fontSize: 16 }}>Submit Feedback</button>
+        </form>
+        <div>
+          <a href="https://github.com/aegorsuch/Android-Manifest-STIG-Checker/issues" target="_blank" rel="noopener noreferrer" style={{ color: '#4eaaff', textDecoration: 'underline', fontSize: 16 }}>
+            Or report directly on GitHub
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
