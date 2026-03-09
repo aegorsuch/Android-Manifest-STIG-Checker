@@ -106,7 +106,7 @@ export default function App() {
 
   return (
     <div style={{ padding: 24, maxWidth: 800, margin: 'auto', background: '#222', color: '#fff' }}>
-      <h1>STIG Checker</h1>
+      <h1>Android Manifest STIG Checker</h1>
       <textarea
         rows={12}
         style={{ width: '100%', fontFamily: 'monospace', fontSize: 16, marginBottom: 16 }}

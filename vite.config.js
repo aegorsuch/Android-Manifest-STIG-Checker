@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/STIG-Checker/',
+  base: '/android-manifest-stig-checker/',
   build: {
     outDir: 'docs',
     emptyOutDir: true,

@@ -86,7 +86,7 @@ function App() {
     _react2['default'].createElement(
       'h1',
       null,
-      'STIG Checker'
+      'Android Manifest STIG Checker'
     ),
     _react2['default'].createElement('textarea', {
       rows: 12,

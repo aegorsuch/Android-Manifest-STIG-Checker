@@ -1,4 +1,4 @@
-# STIG Checker
+# Android Manifest STIG Checker
 
 Paste your AndroidManifest.xml and get informed of real DISA Android STIG issues.
 
@@ -20,7 +20,7 @@ To deploy as a GitHub Pages site:
 3. In your GitHub repo settings, set GitHub Pages source to `main` branch, `/docs` folder.
 4. Add a `.nojekyll` file to the `docs` folder (already included).
 
-Your app will be available at: https://aegorsuch.github.io/STIG-Checker/
+Your app will be available at: https://aegorsuch.github.io/android-manifest-stig-checker/
 
 ## To Do
 - Add more STIG checks

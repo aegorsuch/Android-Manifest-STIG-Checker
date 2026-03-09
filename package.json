@@ -1,5 +1,5 @@
 {
-    "name": "stig-checker",
+    "name": "android-manifest-stig-checker",
     "version": "1.0.0",
     "private": true,
     "dependencies": {
