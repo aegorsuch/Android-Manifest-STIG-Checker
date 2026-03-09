@@ -1,12 +1,17 @@
 {
-  "name": "stig-checker",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
-  "scripts": {
-    "start": "npx serve public"
-  }
+    "name": "stig-checker",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "scripts": {
+        "start": "npx serve public",
+        "build": "npx babel src --out-dir public --presets=@babel/preset-react,@babel/preset-env"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.29.0",
+        "@babel/preset-react": "^7.28.5"
+    }
 }
